@@ -3,7 +3,7 @@ import { COLORS, QUERIES, rem, WEIGHTS } from "../../constants";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 import { Player } from '@lottiefiles/react-lottie-player';
-import animation from '/src/sending3.json';
+import animation from '../../sending3.json';
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -27,7 +27,7 @@ const Contacts = () => {
     const { register, handleSubmit, formState: { errors } } = useForm<FormData>({ resolver: zodResolver(schema), mode: "onChange" });
 
     const form = useRef<HTMLFormElement>(null);
-    const sendEmail = async (data: FormData) => {
+    const sendEmail = async (_data: FormData) => {
         if (!form.current) return;
         setIsSending(true);
         setShowPlane(true);
