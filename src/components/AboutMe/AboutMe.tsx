@@ -16,11 +16,13 @@ const AboutMe = () => {
                     </Text>
                     <br />
                     <Text>
-                        I'm a full stack developer with a passion for building web applications. I'm a quick learner and I'm always looking to improve my skills. I started programming in fall 2023 and I'm currently a university student.
+                        I started my coding journey in Fall 2023 with univeristy. The first time I sat down to write some C++ code I was looking here and there thinking about how to begin while everyone was just typing as it seemed normal.
+                        Slowly I grasped this coding feeling and the ecstasy after competing a problem was what worth doing programming for me.
                     </Text>
                     <br />
                     <Text>
-                        I started programming in c++ then I moved to python and after that I stopped for a while to think about my career. That is when I started learning dotnet approx. 6 months ago.
+                        I started programming in c++ with university, side by side with CS50x. It was a great feeling finishing that course but it made me a bit saddened cause I could not find a course like that which focused this much on learning while coding.
+                        Then I started exploring different fields and just at the beginning of 2025 I made my mind to learn dotnet.  
                     </Text>
                 </LeftSide>
                 <RightSide>

@@ -22,8 +22,8 @@ const SelectLanguage = () => {
                 value={value}
                 onChange={(ev) => setValue(ev.target.value)}>
                 <LanguageOption value="EN">EN</LanguageOption>
-                <LanguageOption value="FR">FR</LanguageOption>
-                <LanguageOption value="DE">DE</LanguageOption>
+                {/* <LanguageOption value="FR">FR</LanguageOption>
+                <LanguageOption value="DE">DE</LanguageOption> */}
             </NativeSelect>
             <PresentationalBit>
                 {value}

@@ -6,10 +6,10 @@ const Hero = () => {
         <Wrapper id="home">
             <Text>
                 <Heading>
-                    Asad is a <Highlight>front-end</Highlight> and <Highlight>back-end developer</Highlight>
+                    Asad is a <Highlight>ASP .NET Core</Highlight> and <Highlight>React developer</Highlight>
                 </Heading>
                 <Paragraph>
-                    He creates responsive dotnet websites that are too hot to handle providing a smooth user experience
+                    He creates responsive dotnet websites that provide a smooth user experience
                 </Paragraph>
                 <ContactButton onClick={() => { window.location.hash = "#contact"; }}>
                     Contact me !!
@@ -22,7 +22,7 @@ const Hero = () => {
                 <Status>
                     <PinkSquare/>
                     <p>
-                        Currently working on <span>Reactivities</span>
+                        Currently polishing <span>Portolio</span>
                     </p>
                 </Status>
             </HeroWrapper>
