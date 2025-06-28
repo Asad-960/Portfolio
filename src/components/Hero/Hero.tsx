@@ -21,8 +21,8 @@ const Hero = () => {
                 <DottedLogo src="/assests/SmallDots.svg"/>
                 <Status>
                     <PinkSquare/>
-                    <p>
-                        Currently polishing <span>Portolio</span>
+                    <p style={{userSelect: "none"}}>
+                        Currently learning <span>Microsoft Azure (AZ-900)</span>
                     </p>
                 </Status>
             </HeroWrapper>
