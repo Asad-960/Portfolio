@@ -140,7 +140,7 @@ const Line = styled.div`
     margin-left: ${rem(16)};
     @media ${QUERIES.phoneAndBelow}
     {
-        width: ${rem(181)};
+        width: ${rem(111)};
     }
 `;
 
@@ -171,7 +171,7 @@ const RowOneInput = styled(Input)
     margin-right: 16px;
 
     @media ${QUERIES.phoneAndBelow}{
-        width: ${rem(244.8)};
+        width: ${rem(234.8)};
     }
 `;
 const RowTwo = styled.div`
@@ -182,7 +182,7 @@ const Title = styled(Input)
     height: 37px;
     width: ${rem(505 * 1.5)};
     @media ${QUERIES.phoneAndBelow}{
-        width: ${rem(505)};
+        width: ${rem(485.89)};
     }
 `;
 const RowThree = styled.div`
@@ -201,7 +201,7 @@ const Description = styled.textarea
         color: ${COLORS.gray};
     }
     @media ${QUERIES.phoneAndBelow}{
-        width: ${rem(505)};
+        width: ${rem(485.89)};
     }
 `;
 

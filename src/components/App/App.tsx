@@ -31,6 +31,8 @@ const Wrapper = styled.div`
 const ContentWrapper = styled.div`
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
   @media (${QUERIES.laptopAndUp})
   {
     width: calc(100% - ${rem(342)});

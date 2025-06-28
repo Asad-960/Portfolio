@@ -43,6 +43,10 @@ const Projects = () => {
 }
 const Wrapper = styled.div`
     background: ${COLORS.background};
+    @media ${QUERIES.laptopAndUp}
+    {
+        padding-top: ${rem(123)};
+    }
 `;
 const Header = styled.div`
     display: flex;
@@ -69,7 +73,7 @@ const Line = styled.div`
 
     @media ${QUERIES.phoneAndBelow}
     {
-        width: ${rem(211)};
+        width: ${rem(111)};
     }
 `;
 
@@ -97,6 +101,7 @@ const ProjectWrapper = styled.div`
         margin: 0 ${rem(16)};
         flex-direction: column;
         align-items: center;
+        width: fit-content;
     }
 `;
 const Modal = styled.div`

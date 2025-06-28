@@ -47,7 +47,9 @@ const Text = styled.div`
     margin-top: ${rem(74)};
     flex: 1;
     margin-left: 1px;
+    user-select: none;
     @media ${QUERIES.phoneAndBelow} {
+        width: 100%;
         margin-top: ${rem(34)};
         margin-left: 16px;
         margin-right: 16px;
@@ -84,8 +86,10 @@ const HeroWrapper = styled.div`
     height: fit-content;
     @media (${QUERIES.phoneAndBelow})
     {
+        /* background: ${COLORS.white}; */
+        width: 100vw;
         margin-left: 22px;
-        margin-right: 22px;
+        
     }
 `;
 const HeroImage = styled.img`
@@ -96,6 +100,8 @@ const HeroImage = styled.img`
         width: 307.91px;
         height: 260.08px;
         margin: auto;
+        margin-top: 20px;
+        
     }
     @media (${QUERIES.tabletOnly})
     {

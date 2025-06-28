@@ -60,7 +60,6 @@ const Wrapper = styled.div`
     width: 100%;
     background-color: ${COLORS.background};
     height: ${rem(500)};
-
     @media ${QUERIES.phoneAndBelow}
     {
         padding-top: ${rem(30)};
@@ -154,6 +153,12 @@ const SkillsWrapper = styled.div`
     display: flex;
     flex-direction: column;
     max-height: fit-content;
+    @media ${QUERIES.phoneAndBelow}
+    {
+        min-width: ${rem(180)};
+        max-width: ${rem(200)};
+        
+    }
 
 `
 const SkillText = styled.div`
@@ -167,8 +172,13 @@ const SkillText = styled.div`
 `;
 
 const Languages = styled(SkillsWrapper)`
+    
 `;
 const Databases = styled(SkillsWrapper)`
+    @media ${QUERIES.phoneAndBelow}
+    {
+        width: 142px;
+    }
 `;
 const Tools = styled(SkillsWrapper)`
 `;
@@ -186,10 +196,14 @@ const SecondSkillColumn = styled.div`
     display: flex;
     flex-direction: column;
     gap: ${rem(16)};
+    @media (${QUERIES.phoneAndBelow}){
+        
+    }
 `;
 const ThirdSkillColumn = styled(SecondSkillColumn)`
     @media (${QUERIES.phoneAndBelow}){
         position: relative;
         top: -${rem(139)};
+        
     }
 `;

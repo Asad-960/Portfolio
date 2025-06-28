@@ -38,8 +38,8 @@ const Wrapper = styled.div`
     display: flex;
     gap: ${rem(166)};
     position: relative;
-    
     @media ${QUERIES.phoneAndBelow} {
+        width: 100%;
         padding-top: ${rem(30)};
         display: block;
     }
@@ -67,7 +67,7 @@ const Line = styled.div`
     margin-top: ${rem(32)};
     @media ${QUERIES.phoneAndBelow}
     {
-        width: ${rem(211)};
+        width: ${rem(111)};
     }
 `;
 const Square = styled.div`
@@ -89,13 +89,14 @@ const LeftSide = styled.div`
     @media ${QUERIES.tabletAndBelow}
     {
         display: block;
-        width: 100%;
+        width: 100vw;
     }
 `;
 const Text = styled.p`
     font-size: ${rem(16)};
     color: ${COLORS.gray};
     padding-left: ${rem(16)};
+    user-select: none;
 `;
 const RightSide = styled.div`
     width: 20%;
