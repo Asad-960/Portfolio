@@ -33,7 +33,7 @@ const Projects = () => {
                     <Languages>React dotnet</Languages>
                     <Description>
                         <h1>Taskify</h1>
-                        <p>Managing and Scheduling daily tasks</p>
+                        <p>Manage and Schedule daily tasks</p>
                         <GithubButton onClick={() => {window.open("https://github.com/Asad-960/Taskify", "_blank")}}> Github {"<~>"}</GithubButton>
                     </Description>
                 </Modal>
