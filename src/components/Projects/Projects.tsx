@@ -24,7 +24,7 @@ const Projects = () => {
                     <Languages>React dotnet</Languages>
                     <Description>
                         <h1>Job Portal</h1>
-                        <p>Self Playing Chess Game</p>
+                        <p>Create and apply for jobs</p>
                         <GithubButton onClick={() => {window.open("https://github.com/Asad-960/Taskify", "_blank")}}> Github {"<~>"}</GithubButton>
                     </Description>
                 </Modal>
@@ -33,7 +33,7 @@ const Projects = () => {
                     <Languages>React dotnet</Languages>
                     <Description>
                         <h1>Taskify</h1>
-                        <p>Self Playing Chess Game</p>
+                        <p>Managing and Scheduling daily tasks</p>
                         <GithubButton onClick={() => {window.open("https://github.com/Asad-960/Taskify", "_blank")}}> Github {"<~>"}</GithubButton>
                     </Description>
                 </Modal>
