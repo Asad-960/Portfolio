@@ -1,0 +1,103 @@
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+    margin: 0;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        interpolate-size: allow-keywords;
+    }
+}
+
+body {
+    /* 4. Add accessible line-height */
+    line-height: 1.5;
+    /* 5. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 6. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+/*
+    10. Create a root stacking context
+  */
+#root,
+#__next {
+    isolation: isolate;
+}
+
+html,body , #root{
+    width: 100%;
+    height: 100%;
+}
+* {
+    font-family: "Fira Code", monospace;;
+}
+
+body {
+    background: hsl(216deg 10% 19%);
+
+}
+@media (max-width: 1100px)
+{
+    body{
+        background: hsl(218deg 12% 18%);
+    }
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px hsl(218, 12%, 18%) inset !important; /* 👈 background fix */
+  box-shadow: 0 0 0 1000px hsl(218, 12%, 18%) inset !important;
+  -webkit-text-fill-color: hsl(219deg 13% 71%) !important; /* 👈 text color fix */
+  transition: background-color 5000s ease-in-out 0s;
+}
