@@ -22,7 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-<<<<<<< HEAD
 
 # Environment variables
 .env
@@ -34,5 +33,3 @@ dist-ssr
 # Vite
 vite.config.ts.timestamp-*
 vite.config.js.timestamp-*
-=======
->>>>>>> 2a0abba5523ff63934d6b4ddff8dcfc4ffe5efac
